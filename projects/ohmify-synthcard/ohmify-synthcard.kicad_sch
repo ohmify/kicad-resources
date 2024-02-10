@@ -6,7 +6,8 @@
 
   (title_block
     (title "SynthCard")
-    (rev "v1.0")
+    (date "2024-02-10")
+    (rev "v1.1")
     (company "Ohmify")
   )
 
@@ -566,9 +567,6 @@
     )
   )
 
-  (junction (at 152.4 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid 00b0a750-e7d4-4aef-b41e-23dba45fb1cd)
-  )
   (junction (at 118.11 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 0af0943d-63f5-435c-95c6-ae9e9a8e99eb)
   )
@@ -596,11 +594,20 @@
   (junction (at 135.89 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 8fc2fc13-d2ba-4214-8eec-06eee42a5286)
   )
+  (junction (at 149.86 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 900bf9b6-c1e5-4063-92e7-4e49cf144da1)
+  )
   (junction (at 203.2 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 9b6bd238-7141-4ffd-ab07-37c6ed1e4f44)
   )
+  (junction (at 120.65 120.523) (diameter 0) (color 0 0 0 0)
+    (uuid a804e0b4-eb72-4a05-b644-2e0c9e4775da)
+  )
   (junction (at 135.89 130.81) (diameter 0) (color 0 0 0 0)
     (uuid d401822b-e66a-4135-9a9f-cac78ef34013)
+  )
+  (junction (at 152.4 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid e316c62c-5519-4dfe-99ac-fcbb02bf2d02)
   )
   (junction (at 171.45 80.01) (diameter 0) (color 0 0 0 0)
     (uuid fae48408-e8c3-4481-8857-c258a2c2060a)
@@ -650,10 +657,6 @@
     (stroke (width 0) (type default))
     (uuid 18b5407a-de4f-4039-97bf-57848529f693)
   )
-  (wire (pts (xy 152.4 95.25) (xy 152.4 104.14))
-    (stroke (width 0) (type default))
-    (uuid 1a34f896-b55c-4bb6-aa8c-7969866f9b55)
-  )
   (wire (pts (xy 118.11 114.3) (xy 118.11 80.01))
     (stroke (width 0) (type default))
     (uuid 1bc681f8-7c31-4903-9b10-1efdc7a0b334)
@@ -666,9 +669,17 @@
     (stroke (width 0) (type default))
     (uuid 2f6a9ba9-9c70-45d6-ba2e-2dc3221cffec)
   )
-  (wire (pts (xy 120.65 118.11) (xy 120.65 104.14))
+  (wire (pts (xy 120.65 120.523) (xy 120.65 104.14))
+    (stroke (width 0) (type default))
+    (uuid 3a2ecdb8-acb4-495b-b5e4-f8cb97caaa7e)
+  )
+  (wire (pts (xy 120.65 121.793) (xy 120.65 120.523))
     (stroke (width 0) (type default))
     (uuid 3a8e3f83-1ee7-42ea-b7f1-0c81e51732a9)
+  )
+  (wire (pts (xy 149.86 114.3) (xy 151.13 114.3))
+    (stroke (width 0) (type default))
+    (uuid 3cda3d16-af0c-45ee-8aa0-47ca902eae51)
   )
   (wire (pts (xy 152.4 80.01) (xy 171.45 80.01))
     (stroke (width 0) (type default))
@@ -702,7 +713,7 @@
     (stroke (width 0) (type default))
     (uuid 5bc6618b-e677-4053-9a25-2de1305540c8)
   )
-  (wire (pts (xy 120.65 125.73) (xy 120.65 130.81))
+  (wire (pts (xy 120.65 129.413) (xy 120.65 130.81))
     (stroke (width 0) (type default))
     (uuid 6cc1aa34-f898-4930-8019-185dbfc35a82)
   )
@@ -710,7 +721,7 @@
     (stroke (width 0) (type default))
     (uuid 757174ed-dc23-4fe5-a39c-0ff07cdbfde4)
   )
-  (wire (pts (xy 148.59 114.3) (xy 151.13 114.3))
+  (wire (pts (xy 148.59 114.3) (xy 149.86 114.3))
     (stroke (width 0) (type default))
     (uuid 8010dd4b-1b39-410d-b206-bb276a27f751)
   )
@@ -721,6 +732,10 @@
   (wire (pts (xy 104.14 114.3) (xy 104.14 130.81))
     (stroke (width 0) (type default))
     (uuid 8782b5c0-aab9-417b-991a-d62cef74ac77)
+  )
+  (wire (pts (xy 152.4 95.25) (xy 152.4 109.22))
+    (stroke (width 0) (type default))
+    (uuid 89f00e8c-9227-4567-983d-d08f2e03e326)
   )
   (wire (pts (xy 203.2 80.01) (xy 203.2 86.36))
     (stroke (width 0) (type default))
@@ -758,13 +773,21 @@
     (stroke (width 0) (type default))
     (uuid 9b07e9ed-2e93-4875-ad2f-30a44c0b403b)
   )
-  (wire (pts (xy 148.59 109.22) (xy 161.29 109.22))
+  (wire (pts (xy 149.86 114.3) (xy 149.86 120.523))
+    (stroke (width 0) (type default))
+    (uuid 9d77e4bd-a40f-4e3d-aae6-cc25b697d18d)
+  )
+  (wire (pts (xy 148.59 109.22) (xy 152.4 109.22))
     (stroke (width 0) (type default))
     (uuid 9f062984-fe1f-4b40-8248-155d370537fc)
   )
   (wire (pts (xy 208.28 91.44) (xy 207.01 91.44))
     (stroke (width 0) (type default))
     (uuid a41491a4-80c7-4984-9454-4364c559156d)
+  )
+  (wire (pts (xy 149.86 120.523) (xy 120.65 120.523))
+    (stroke (width 0) (type default))
+    (uuid a49eb35f-07e3-4df1-b150-0f658a1cc327)
   )
   (wire (pts (xy 171.45 80.01) (xy 186.69 80.01))
     (stroke (width 0) (type default))
@@ -802,7 +825,7 @@
     (stroke (width 0) (type default))
     (uuid d1be3493-2c0f-4b24-8eae-0cf93372c3b1)
   )
-  (wire (pts (xy 148.59 104.14) (xy 152.4 104.14))
+  (wire (pts (xy 148.59 104.14) (xy 173.99 104.14))
     (stroke (width 0) (type default))
     (uuid d53ac89f-ad89-46d4-bfdc-18a7117d41f5)
   )
@@ -813,6 +836,10 @@
   (wire (pts (xy 123.19 114.3) (xy 118.11 114.3))
     (stroke (width 0) (type default))
     (uuid d63611ae-e908-4eb8-9df7-dcc67e6d1bb6)
+  )
+  (wire (pts (xy 152.4 109.22) (xy 161.29 109.22))
+    (stroke (width 0) (type default))
+    (uuid dde428fa-94af-45f2-9bd3-45ba5fa60cae)
   )
   (wire (pts (xy 152.4 86.36) (xy 152.4 87.63))
     (stroke (width 0) (type default))
@@ -834,10 +861,6 @@
     (stroke (width 0) (type default))
     (uuid fa5f0f60-1ed0-492e-9974-c6bd77881a6f)
   )
-  (wire (pts (xy 152.4 104.14) (xy 173.99 104.14))
-    (stroke (width 0) (type default))
-    (uuid fc3ad712-a2ff-4470-837f-e8b6f71b7337)
-  )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 203.2 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
@@ -858,7 +881,7 @@
     (pin "3" (uuid e4091f26-aab7-4780-a715-a172bc378799))
     (pin "2" (uuid 5233bd0c-35d8-4c1f-9a96-40c1f466d71b))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "RV2") (unit 1)
         )
@@ -883,7 +906,7 @@
     )
     (pin "1" (uuid 2fabc5e4-0d66-480a-b976-9dc90fd1df09))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "#FLG01") (unit 1)
         )
@@ -909,7 +932,7 @@
     (pin "1" (uuid 2cb8b2c6-ee18-4296-8921-79d642071d9d))
     (pin "2" (uuid d7ef822b-1a3d-4d62-a38b-42f0e6367ca5))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "C2") (unit 1)
         )
@@ -935,7 +958,7 @@
     (pin "2" (uuid 6cdcae4e-6d2d-4f96-a91f-ff51a83db649))
     (pin "1" (uuid bfe7f3c8-66a4-41b0-8514-7c078357a42d))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "BT1") (unit 1)
         )
@@ -967,7 +990,7 @@
     (pin "5" (uuid 388100eb-ff5d-4088-99d3-25324f4a64db))
     (pin "4" (uuid 0928db64-6226-4cff-806f-ca11001c6e66))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "U2") (unit 1)
         )
@@ -994,7 +1017,7 @@
     (pin "3" (uuid 78d15d68-816c-43b9-bf74-9914426056fb))
     (pin "2" (uuid f33a7a31-6d8b-42a9-944f-a6b71022c8e4))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "RV1") (unit 1)
         )
@@ -1002,25 +1025,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 120.65 121.92 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 120.65 125.603 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4827a0c0-8819-4045-82a1-2c35a0121a58)
-    (property "Reference" "C1" (at 123.19 120.65 0)
+    (property "Reference" "C1" (at 123.19 124.333 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 123.19 123.19 0)
+    (property "Value" "10nF" (at 123.19 126.873 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 121.6152 125.73 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 121.6152 129.413 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 120.65 121.92 0)
+    (property "Datasheet" "~" (at 120.65 125.603 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b56d721c-18fd-4f5b-8b8c-03fef2bb5945))
     (pin "2" (uuid 67df39c8-ea65-4c37-abe6-e94c9d8ae4e8))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "C1") (unit 1)
         )
@@ -1045,7 +1068,7 @@
     )
     (pin "1" (uuid f71b5bf3-2130-47ed-a3ed-11f0c61a8e7d))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "#PWR02") (unit 1)
         )
@@ -1071,7 +1094,7 @@
     (pin "1" (uuid 994d9c8d-132f-4b31-a694-0def0d6f5fee))
     (pin "2" (uuid ad5e4155-5de9-4b94-8398-fed94cd14d82))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "R1") (unit 1)
         )
@@ -1096,7 +1119,7 @@
     )
     (pin "1" (uuid 9ae0d6c2-4c26-4238-b71a-c05a07be2d02))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "#PWR01") (unit 1)
         )
@@ -1121,7 +1144,7 @@
     )
     (pin "1" (uuid dd712dd3-8aa8-44ac-80f2-46de451e530b))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "#FLG02") (unit 1)
         )
@@ -1153,7 +1176,7 @@
     (pin "5" (uuid c98cacc1-36ac-4a4b-88b9-0a73c08cb8ed))
     (pin "4" (uuid 5e556df9-7b51-4e7a-bbd2-e0df464e1555))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "U1") (unit 1)
         )
@@ -1179,7 +1202,7 @@
     (pin "1" (uuid 308c33a8-52ce-4bd5-ba90-1549e96f68e8))
     (pin "2" (uuid 760aeec3-cf99-410a-bd1b-3b840365cb5c))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "C3") (unit 1)
         )
@@ -1205,7 +1228,7 @@
     (pin "2" (uuid 67f76a79-9fd8-4bd7-bff2-f1e39951415a))
     (pin "1" (uuid af65b6a0-bad6-468a-81f7-280a6da887a1))
     (instances
-      (project "SynthCard"
+      (project "ohmify-synthcard"
         (path "/ba5ae891-fc98-44d2-bcac-f784448702be"
           (reference "LS1") (unit 1)
         )

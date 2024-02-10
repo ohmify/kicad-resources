@@ -6,7 +6,8 @@
 
   (title_block
     (title "Overdrive")
-    (rev "v1.0")
+    (date "2024-02-10")
+    (rev "v1.1")
     (company "Ohmify")
   )
 
